@@ -532,8 +532,8 @@ def fetch_data(options, config):
         if e.code == 404:
             sys.stderr.write("error: while downloading %s:\n%s\n" % (url, e))
             if options.suite:
-                sys.stderr.write("Are you sure \"%s\" is a Debian codename?\n" %
-                                 (options.suite))
+                sys.stderr.write("Are you sure %s is a Debian codename?\n" %
+                                 repr(options.suite))
             sys.exit(1)
         if (not options.cron) or e.code == 404:
             sys.stderr.write("error: while downloading %s:\n%s\n" % (url, e))
