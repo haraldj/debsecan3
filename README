@@ -15,7 +15,7 @@ debsecan-create-cron(8) manual page.
 The vulnerability database is maintained by the Debian testing
 security team:
 
-  <http://secure-testing-master.debian.net/>
+  <https://security-team.debian.org/security_tracker.html>
 
 A web interface to the database is available at:
 
