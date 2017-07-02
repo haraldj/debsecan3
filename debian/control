@@ -6,6 +6,7 @@ Build-Depends: debhelper (>> 5)
 Build-Depends-Indep: po-debconf
 Standards-Version: 3.8.4
 Vcs-Git: https://gitlab.com/fweimer/debsecan.git
+Homepage: https://security-team.debian.org/security_tracker.html
 
 Package: debsecan
 Architecture: all
